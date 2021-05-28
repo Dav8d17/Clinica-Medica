@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: arial, helvetica;
+	background: #DDE8E8;
+}
+
+/*Aqui comienza el MENU*/
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #08171a;
+	width: 100%;
+	max-width: 100%;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px 47px;
+	display: block;	
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #54c3ef;
+}
+
+/*--------------------------------------------------------------------------------------*/
+/*Estilos menu pagina de servicios*/
+.menu li ul{
+	display: none;
+	position: absolute;
+	min-width: 120px;
+}
+
+.menu li:hover > ul {
+	display: block;
+}
+
+.menu li ul li{
+	position: relative;
+	background: #08171a;
+	display: block;	
+}
+
+.menu li ul a{
+	text-decoration: none;
+	color: white;
+	padding: 12px 13px;
+	display: block;	
+} 
+/*Estilo titulos cada página*/
+.titulos{
+	padding: 15px;
+	background: #F5F5F5;
+	color: #191970;
+	font-family:  Tahoma, serif;
+	max-width: 100%;
+	font-size: 210%;
+	text-align:center;
+	margin: left;
+}
+/*Estilo subtitulos cada pagina*/
+.subtitulos{
+	margin-top: 39px;
+	font-family: Cambria, Georgia, Times, serif;
+	font-size: 22px;
+	margin-right: 15px;
+}
+/*Estilo texto cada página*/
+.texto{
+	margin-top: 15px;
+	font-family:  Tahoma, serif;
+	max-width: 95%;
+	font-size: 100%;
+	text-align:justify;
+	line-height: 23px; 
+} 
+/*Estilo de precio*/
+.precio{
+	background: #54c3ef;
+	margin-top: 40px;
+	margin-right: 150px;
+	margin-left: 1050px;
+	border: 3px solid gray;
+	color: #FFFBFB;
+	text-align: center;
+	font-size: 25px;
+	width: 250px;
+	height: 100px;
+	line-height: 20px;
+	padding-top: 35px;
+}
+/*Estilo imagenes de los servicios*/
+.imagenes_serv{
+	padding: 50px;
+	width: 800px;
+	height: 550px;	
+	float: left; 
+}
+/*Estilos pagina principal de servicios*/
+.principal_serv{
+	padding: 35px;
+	width: 500px;
+	height: 500px;
+	margin-left: 125px;
+	margin-top: 45px;
+	margin-right: 125px;
+}
+/*Estilos titulos pagina principal servicios*/
+.servi_titulo{
+	color: white;
+	padding: 20px;
+	background: #08171a;
+	text-align: center;
+	margin-top: 25px;
+	font-family: Tahoma, serif;
+	font-size: 60px;
+}
+/*Estilos subtitulos pagina principal servicios*/
+.servi_subtitulo{
+	text-align: center;
+	padding: 15px;
+	margin-top: 65px;
+	font-family: Cambria, Georgia, Times, serif;
+	font-size: 150%;
+}
+
+/*--------------------------------------------------------------------------------------*/
+/* Contenedores y estilos de contactos*/
+
+.boton1{
+	text-decoration:none;
+	font-weight: 600;
+	font-size: 20px;
+	color:#000000;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:15px;
+	padding-right:15px;
+	background-color: transparent;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #000000;
+}
+
+.contac{
+	width: 20%;
+	height: 250px;
+	background-color: #F5F5F5;
+	
+
+}
+
+/*--------------------------------------------------------------------------------------*/
+/* Contenedores y estilos de Grupo*/
+
+/*Estilo imagenes del grupo*/
+.imagenesGrup{
+	padding: 50px;
+	width: 600px;
+	height: 550px;	
+	float: left; 
+}
